@@ -2480,12 +2480,15 @@ calendar {
   padding: 6px 16px; }
 
 .message-dialog .dialog-action-area .button {
+
   padding: 8px; }
 
 .message-dialog {
+	
   -GtkDialog-button-spacing: 0; }
   .message-dialog .titlebar {
     background-color: #2b2b2b;
+
     border-bottom: 1px solid #191919; }
   .message-dialog.csd.background {
     border-bottom-left-radius: 3px;

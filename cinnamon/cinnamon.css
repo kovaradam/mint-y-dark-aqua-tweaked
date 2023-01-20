@@ -54,7 +54,7 @@ stage {
   #menu-search-entry:focus, .popup-menu #notification StEntry:focus, #menu-search-entry:hover, .popup-menu #notification StEntry:hover {
     color: rgba(255, 255, 255, 0.87);
     background-color: #404040;
-    border: 1px solid #1f9ede;
+    border: 2px solid #1f9ede;
     box-shadow: inset 0 2px 4px rgba(64, 64, 64, 0.05); }
   #menu-search-entry:insensitive, .popup-menu #notification StEntry:insensitive {
     color: rgba(255, 255, 255, 0.32);
@@ -117,7 +117,7 @@ StScrollBar {
   -gradient-height: 1px;
   -gradient-start: rgba(0, 0, 0, 0);
   -gradient-end: rgba(0, 0, 0, 0);
-  -margin-horizontal: 1.5em;
+  -margin-horizontal: 5.5em;
   height: 1em; }
 
 .ripple-pointer-location {
@@ -227,6 +227,7 @@ StScrollBar {
   border: 0px solid #202020;
   border-radius: 5px;
   margin-bottom: 5px;
+  margin-from-right-edge-of-screen: 10px;
   /*background-color: rgba(47, 47, 47, 0.99); }*/
   background-color: rgba(30, 30, 30, 0.97); }
   .menu.top {
@@ -1012,7 +1013,7 @@ StScrollBar {
     .run-dialog-entry:focus {
       color: rgba(255, 255, 255, 0.87);
       background-color: #404040;
-      border: 1px solid #1f9ede;
+      border: 2px solid #1f9ede;
       box-shadow: inset 0 2px 4px rgba(64, 64, 64, 0.05); }
   .run-dialog .modal-dialog-button-box {
     border: none;
@@ -1230,13 +1231,16 @@ StScrollBar {
   color: rgba(255, 255, 255, 0.87);
   border: 0px solid #202020;
   border-radius: 5px;
-  background-color: #2f2f2f; }
+  background-color: #2f2f2f; 
+
+  }
 
 .restart-osd {
   font-size: 1.6em; }
 
 .workspace-osd {
-  font-size: 4em; }
+  font-size: 2em; }
+   
 
 .osd-window {
   text-align: center;
@@ -1245,13 +1249,14 @@ StScrollBar {
   padding: 20px;
   color: rgba(255, 255, 255, 0.87);
   background-color: #2f2f2f;
+  background-color: rgba(30, 30, 30, 0.97); 
   border: 0px solid #202020;
   border-radius: 5px; }
   .osd-window .osd-monitor-label {
     font-size: 3em; }
   .osd-window .level {
     padding: 0;
-    height: 0.7em;
+    height: 1.7em;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 2px; }
   .osd-window .level-bar {
@@ -1612,7 +1617,8 @@ StScrollBar {
     background-image: url("common-assets/misc/overview-hover.png"); }
 
 .applet-separator {
-  padding: 1px 4px; }
+  /*padding: 1px 4px; }*/
+  padding: 8px 4px; }
   .applet-separator.vertical {
     padding: 4px 1px; }
 

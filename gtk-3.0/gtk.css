@@ -355,6 +355,7 @@ button {
     color: #dbdbdb;
     outline-color: rgba(219, 219, 219, 0.3);
     border-color: rgba(22, 22, 22, 0.4);
+    border-color: pink;
     background-color: rgba(109, 109, 109, 0.4); }
     .osd button:hover {
       color: #dbdbdb;
@@ -879,6 +880,7 @@ headerbar,
   .default-decoration.titlebar:not(headerbar) {
     min-height: 28px;
     padding: 0 7px;
+    padding: 0 17px;
     border-bottom-width: 0; }
     .maximized headerbar.default-decoration, .maximized .default-decoration.titlebar:not(headerbar) {
       background-color: #2b2b2b; }

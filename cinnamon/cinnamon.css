@@ -1387,7 +1387,8 @@ StScrollBar {
   background-gradient-end: #F04A50; }
 
 .grouped-window-list-thumbnail-label {
-  padding-left: 4px; }
+  padding-left: 4px;
+  }
 
 .grouped-window-list-number-label {
   font-size: 0.8em;
@@ -1409,15 +1410,17 @@ StScrollBar {
   color: rgba(255, 255, 255, 0.87);
   border: 0px solid #202020;
   background-color: #2f2f2f;
-  background-color: rgba(30, 30, 30, 0.97); 
+  background-color: transparent;
   border-radius: 5px;
-  margin-bottom: 5px;
+  margin: 5px;
+  spacing:10px;
   padding: 0px; }
   .grouped-window-list-thumbnail-menu > StBoxLayout {
     padding: 4px; }
   .grouped-window-list-thumbnail-menu .item-box {
-    padding: 10px;
+    padding: 10px ;
     border-radius: 5px;
+    background-color: rgba(230, 230, 230, 0.3); 
     spacing: 4px; }
     .grouped-window-list-thumbnail-menu .item-box:outlined {
       padding: 8px;

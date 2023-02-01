@@ -252,7 +252,7 @@ StScrollBar {
     padding: 4px; }
     .popup-sub-menu StScrollBar StBin#trough, .popup-sub-menu StScrollBar StBin#vhandle {
       border-width: 0; }
-
+1
 .popup-menu-content {
   padding: 1em 0em 1em 0em; }
 
@@ -1356,6 +1356,7 @@ StScrollBar {
   transition-duration: 100;
   color: rgba(255, 255, 255, 0.67); }
   .grouped-window-list-item-box.top, .grouped-window-list-item-box.bottom {
+      margin-left: 2px; 
     border-bottom-width: 2px; }
     .grouped-window-list-item-box.top StLabel, .grouped-window-list-item-box.bottom StLabel {
       padding-left: 2px; }
@@ -1401,6 +1402,7 @@ StScrollBar {
   margin: 0; }
 
 .grouped-window-list-button-label {
+  background-color:pink;
   padding-left: 4px; }
 
 .grouped-window-list-thumbnail-alert {
@@ -1421,6 +1423,7 @@ StScrollBar {
     padding: 10px ;
     border-radius: 5px;
     background-color: rgba(230, 230, 230, 0.3); 
+    background-color: rgba(200, 200, 200, 0.5); 
     spacing: 4px; }
     .grouped-window-list-thumbnail-menu .item-box:outlined {
       padding: 8px;

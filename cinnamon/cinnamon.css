@@ -1424,7 +1424,7 @@ StScrollBar {
     border-radius: 5px;
     background-color: rgba(230, 230, 230, 0.3); 
     background-color: rgba(200, 200, 200, 0.5); 
-    background-color: rgba(100, 100, 100, 0.7); 
+    background-color: rgba(180, 180, 180, 0.7); 
     spacing: 4px; }
     .grouped-window-list-thumbnail-menu .item-box:outlined {
       padding: 8px;
